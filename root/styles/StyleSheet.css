@@ -293,6 +293,26 @@ footer{
     height: auto;
     color: white;
 }
+.footer-container{
+    display: flex;
+    align-items: start;
+    gap: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.footer-container div{
+    position: relative;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+footer a p{
+    color: lightgray;
+}
+footer a:hover{
+    text-decoration: underline;
+}
 @media only screen and (max-width: 850px) {
     body{
         font-size: 16px;
@@ -380,5 +400,8 @@ footer{
         height: auto;
         padding-left: auto;
         padding-right: auto;
+    }
+    .footer-container{
+        display: initial;
     }
 }
