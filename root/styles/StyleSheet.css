@@ -350,49 +350,6 @@ main{
 .tabsrow{
     justify-content: space-between;
 }
-.resume{
-    min-height: 60svh;
-    margin-top: 4vh;
-    margin-left: 7vh;
-    margin-right: 7vh;
-    margin-bottom: 7vh;
-}
-.resume .heropost{
-    grid-template-columns: 2fr 5fr;
-}
-.resume .flex{
-    display: flex;
-    gap: 5rem; 
-}
-.resume .post{
-    background-image: none;
-}
-.resume .post .flex{
-    gap: 1rem;
-}
-.resume .post .profile, .resume .post hr{
-    margin: 1rem;
-    color: black;
-}
-.resume .postbar{
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-.resumesheet{
-    font-size: 1rem;
-    padding: 2em;
-}
-.resume ul, .resume li{
-    margin: 0px;
-    padding: 0px;
-    margin-left: 1rem;
-}
-.interact li{
-    list-style: none;
-    text-decoration: underline;
-    margin-top: .5rem;
-    margin-left: 0px;
-}
 footer{
     background-color: #1c2024;
     padding: 1em 3em 1em 3em;
@@ -444,25 +401,6 @@ footer a:hover{
     }
     .minus, .plus{
         display: none;
-    }
-    #resumefontdecrease, #resumefontincrease{
-        display: none;
-    }
-    .resume .flex{
-        gap: 1rem;
-    }
-    .resume .heropost{
-        height: auto;
-        width: auto;
-        grid-template-columns: 1fr;
-    }
-    .resume .postbar{
-        height: auto;
-        width: auto;
-        overflow: visible;
-    }
-    .resumesheet{
-        padding: 1rem;
     }
     footer{
         margin-top: 5vh;
@@ -542,30 +480,6 @@ footer a:hover{
     }
     .user-post{
         border-radius: 0px;
-    }
-    .resume{
-        margin:0px;
-        margin-top: 1vh;
-        margin-bottom: 5vh;
-    }
-    #resumefontdecrease, #resumefontincrease{
-        display: none;
-    }
-    .resume .flex{
-        gap: 1rem;
-    }
-    .resume .heropost{
-        height: auto;
-        width: auto;
-        grid-template-columns: 1fr;
-    }
-    .resume .postbar{
-        height: auto;
-        width: auto;
-        overflow: visible;
-    }
-    .resumesheet{
-        padding: 1rem;
     }
     footer{
         margin-top: 5vh;
